@@ -1,0 +1,49 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #4d2fd3; /* Light Blue background color */
+}
+
+.App {
+  text-align: center;
+  size: 50px;
+}
+
+.logo {
+  margin: 5rem;
+  max-width: 20pc;
+  height: auto;
+}
+
+/* Oval-shaped buttons */
+button {
+  border-radius: 999px;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+
+/* Additional styling for SpeechRecognition and ResponseDisplay components */
+#transcription,
+#response {
+  margin: 1rem;
+  padding: 0rem;
+  border: 1px solid #87CEEB; /* Sky Blue border */
+  border-radius: 5px;
+  background-color: #ADD8E6; /* Light Blue background color */
+}
+
+/* Center the content */
+.SpeechRecognition,
+.ResponseDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Customize other styles as needed */
